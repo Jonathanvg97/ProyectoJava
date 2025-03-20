@@ -19,10 +19,10 @@ public class Main {
 
         // Actualizar un usuario
         Usuario usuarioActualizar = new Usuario("Juan Perez Actualizado", "juan_actualizado@example.com");
-        usuarioActualizar.setId(3); // Suponiendo que el ID del usuario a actualizar es 1
+        usuarioActualizar.setId(1); // Suponiendo que el ID del usuario a actualizar es 1
         usuarioDAO.actualizarUsuario(usuarioActualizar);
 
         // Eliminar un usuario
-        usuarioDAO.eliminarUsuario(2); // Suponiendo que el ID del usuario a eliminar es 1
+        usuarioDAO.eliminarUsuario(1); // Suponiendo que el ID del usuario a eliminar es 1
     }
 }
